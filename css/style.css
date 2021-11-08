@@ -1,0 +1,401 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+a {
+  color: #0BCEAF;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #078571;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #020202 !important;
+}
+
+.text-stroke-header {
+  -webkit-text-stroke: 3px #ffffff;
+  color: transparent;
+}
+
+.btn {
+  padding: 10px 25px;
+  border-radius: 100px;
+}
+
+.btn-social {
+  width: 45px;
+  height: 45px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  border-radius: 45px;
+  border: 2px solid #F5A64B; 
+  background: #fff; 
+  color: #000
+}
+
+.form-control {
+  border-radius: 25px;
+}
+
+/* ================ Navigation ====================*/
+.top {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  min-height: 100vh;
+}
+
+.top span {
+  font-weight: lighter;
+  color: white;
+  font-size: 3rem;
+}
+
+.top .row {
+  align-items: center;
+}
+
+.top h3 {
+  color: white !important;
+  font-weight: normal;
+  margin-bottom: .4rem;
+}
+
+.top-name {
+  text-transform: uppercase;
+  margin-bottom: 1px;
+  -webkit-text-stroke: 3px #ffffff;
+}
+
+.type {
+  display: inline;
+  font-weight: lighter;
+  color: #fff !important;
+}
+
+.typed-text {
+  display: none;
+}
+
+.navbar-brand .logo {
+  color: #F5A64B !important;
+}
+
+.navbar-light {
+  display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 25px 10px;
+  color: #343a40;
+  font-weight: 500;
+  outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+  color: #6AA3B5;
+}
+
+.hire {
+  background-color: #F5A64B;
+  color: #ffffff;
+  border: none !important;
+}
+
+@media (max-width:991.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+
+}
+
+/*===================== About  ======================*/
+.about-container {
+  position: relative; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.about-bg{
+  text-transform: uppercase;
+  color: #ffffff !important;
+  -webkit-text-stroke: 1px #dee2e6;
+}
+
+.about{
+  position: absolute; 
+  color: #F5A64B !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.about-img {
+  margin-left: -100px;
+  right: -60px;
+}
+
+.display-1 {
+  font-size: 160px;
+  font-weight: 1000;
+}
+
+.position-absolute {
+  font-weight: 700;
+}
+
+.typed-cursor {
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.orange {
+  color: #ffffff;
+  background: #F5A64B !important; 
+  border: none;
+}
+
+.btn {
+  border: 2px solid #F5A64B;
+}
+
+@media (max-width:700px) {
+  .about-img {
+    margin-left: 20px;
+    right: 0px;
+    top: 30px;
+  }
+
+}
+
+
+/*===================== Skills ==========================*/
+.skills-container{
+  position: relative;
+ display: flex; 
+ align-items: center; 
+ justify-content: center;
+}
+
+.skills-bg{
+ text-transform: uppercase;
+ color: #fff !important;
+ -webkit-text-stroke: 1px #dee2e6;
+}
+
+.skills{
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.skill div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+/* ===================Education & Experience======================*/
+.content{
+  border: 2px solid #F5A64B;
+}
+.me {
+  margin-top: 35px;
+}
+
+.fa-dot-circle{
+  position: absolute;
+  font-weight: 700;
+  top: 2px; 
+  left: -35px;  
+  font-size: 22px;
+  color: #F5A64B;
+}
+
+/* =================== Services ======================*/
+.services{
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-bottom: 1.5rem !important;
+}
+
+.service-container {
+  padding-bottom: 30px;
+}
+
+.service-icon {
+  background: #F5A64B;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  margin-right: 1rem; 
+}
+
+.services h4{
+  font-weight: bold;
+  margin: 0;
+}
+
+.service-box {
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.service-box:hover {
+  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
+}
+
+/* =================== Portfolio  ==================*/
+.portfolio{
+  border: 2px solid #F5A64B;
+}
+
+.btn.active{
+  color: #fff;
+  background-color: #F5A64B;
+  border-color: #F5A64B,
+}
+.portfolio-item .portfolio-btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  border-radius: 4px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.portfolio-item:hover .portfolio-btn {
+  opacity: 1;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  top: 30px;
+  left: 30px;
+}
+
+.work {
+  position: relative;
+  overflow: hidden; 
+  margin-bottom: 0.5rem;  
+}
+
+.portfolio-btn {
+  display: flex;  
+  align-items: center;   
+  justify-content: center;
+  background: #F5A64B;
+}
+
+.portfolio-btn .fa-plus{
+  color: #fff;
+  font-size: 60px;
+}
+/* ====================== Testimonial ================*/
+.testimonial-carousel .text-center {
+  background-color: #eaecf0d0;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.testimonial-carousel .text-center h4 {
+}
+
+.testimonial-carousel .owl-dots {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.testimonial-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  background: #dddddd;
+}
+
+.testimonial-carousel .owl-dot.active {
+  background: #0BCEAF;
+}
+
+/* ========================== Contact Us ========================*/
+.contact-form .help-block ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/*====================== Back to buttom ==================*/
+.scroll-to-bottom {
+  position: fixed;
+  width: 20px;
+  left: calc(50% - 10px);
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 30px;
+  text-align: center;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+
+}
